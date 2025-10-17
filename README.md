@@ -49,7 +49,7 @@ bash
 ```
 kubectl get devopsbatch devopsbatch-sample -o yaml
 ```
-1. The file is making for guid only not as preference not this is used only for guid and at the end if 
+1. The file is making for guid only not as preference notes this is used only for guid and at the end if 
 you have seen any mistake please try to give us akeonledgement to us
 
 ---
