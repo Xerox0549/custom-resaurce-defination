@@ -1,0 +1,38 @@
+kind: CustomResourceDefinition
+apiVersion: apiextention.k8s.io/v1
+metadata:
+  name: devopsbatches
+spec:
+  group: pushpendrasingh.com
+  names:
+    plural: devopsbatches
+    singular: devopsbatch
+    kind: DevOpsBatch
+    shortNames:
+      - practice
+      - junoon
+  scope: Namespaced
+  versions:
+    - name: v1
+      served: true
+      storage: true
+      schema:
+        openAPIV3Schema:
+          type: object
+          properties:
+            spec:
+              type: object
+              properties:
+                batchName:
+                  type: string
+                  description: Name of the DevOps batch
+                duration:
+                  type: integer
+                  description: Duration of the DevOps batch in minutes
+                mode:
+                  type: string
+                  description: Mode of the DevOps batch (e.g., online, offline)
+                platform:
+                  type: string
+                  description: Platform used for the DevOps batch (e.g., Zoom, Google Meet,pushpendrasingh.com)
+           

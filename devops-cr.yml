@@ -1,0 +1,10 @@
+kind: devopsbatch
+apiVersion: pushpendrasingh.com/v1
+metadata:
+  name: devopsbatch-sample
+spec:
+  batchName: "junoon batch 2025"
+  duration: 120
+  mode: "online"
+  platform: "Zoom / online"
+  
